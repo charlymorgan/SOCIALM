@@ -1,0 +1,110 @@
+#preview-image {
+    width: 600px;
+    height: auto;
+    background: #eee;
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    columns: 600px 1;
+    border: 1px solid black;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .upload-post {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  #upload-area {
+    width: 40vw;
+    height: auto;
+    margin: auto;
+  }
+  
+  a {
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-weight: bold;
+    background: #eee;
+  }
+  
+  .image-post-up {
+    width: 100%;
+    height: auto;
+    border-radius: 0 0 10px 10px;
+  }
+  #placeholder {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 100%;
+    background: url("https://avatars.mds.yandex.net/i?id=ac9425f0536b1cc38165d187ca0db7fcfce1f2f6-9181395-images-thumbs&n=13");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 0 10px 10px;
+  }
+  #inputImage {
+    display: none;
+    width: 600px;
+    color: black;
+    background: none;
+    cursor: pointer;
+  }
+  
+  
+  #inputLabel {
+    height: 100px;
+    width: 600px;
+    background: #0b2447;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 10px 10px 0 0;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 2px;
+    border: 1px solid black;
+  }
+  #inputLabel::after {
+    content: "";
+    border-top: 25px solid white;
+    border-right: 25px solid transparent;
+    border-left: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: 5px;
+  }
+  #inputLabel::before {
+    content: "";
+    border-top: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-left: 25px solid transparent;
+    border-bottom: 25px solid white;
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: 45px;
+  }
+  .btn-post {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 6px;
+  }
+  .img{
+    width: 100px;
+    height: 100px;
+  }
